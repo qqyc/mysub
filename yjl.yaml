@@ -1,98 +1,92 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇭🇰一键连｜香港
+  - name: 一键连｜香港
     type: http
     server: global.ap.fastqvpn.com
     port: 29980
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇦🇺一键连｜澳洲
+  - name: 一键连｜澳洲
     type: http
     server: global.ap.fastqvpn.com
     port: 29982
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇨🇦一键连｜加拿大
+  - name: 一键连｜加拿大
     type: http
     server: global.ap.fastqvpn.com
     port: 29983
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇩🇪一键连｜德国
+  - name: 一键连｜德国
     type: http
     server: global.ap.fastqvpn.com
     port: 29984
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇯🇵一键连｜日本
+  - name: 一键连｜日本
     type: http
     server: global.ap.fastqvpn.com
     port: 29985
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇸🇬一键连｜新加坡
+  - name: 一键连｜新加坡
     type: http
     server: global.ap.fastqvpn.com
     port: 29986
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇬🇧一键连｜英国
+  - name: 一键连｜英国
     type: http
     server: global.ap.fastqvpn.com
     port: 29987
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇺🇸一键连｜美国
+  - name: 一键连｜美国
     type: http
     server: global.ap.fastqvpn.com
     port: 29988
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇭🇰一键连｜A1
+  - name: 一键连｜A1
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇭🇰一键连｜A2
+  - name: 一键连｜A2
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇭🇰一键连｜A3
+  - name: 一键连｜A3
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇭🇰一键连｜A4
+  - name: 一键连｜A4
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 🇭🇰一键连｜A5
+  - name: 一键连｜A5
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "428268408799232000"
-    password: 037952ad-35a0-4307-9c95-5c1a4a896f65
+    username: "446377266063081472"
+    password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true

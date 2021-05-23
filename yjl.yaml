@@ -6,7 +6,7 @@ proxies:
     username: "446377266063081472"
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
-  - name: 一键连｜澳洲
+  - name: 一键连｜澳大利亚
     type: http
     server: global.ap.fastqvpn.com
     port: 29982

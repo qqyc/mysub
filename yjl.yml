@@ -3,98 +3,98 @@ proxies:
     type: http
     server: global.ap.fastqvpn.com
     port: 29980
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇦🇺一键连｜澳洲
     type: http
     server: global.ap.fastqvpn.com
     port: 29982
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇨🇦一键连｜加拿大
     type: http
     server: global.ap.fastqvpn.com
     port: 29983
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇩🇪一键连｜德国
     type: http
     server: global.ap.fastqvpn.com
     port: 29984
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇯🇵一键连｜日本
     type: http
     server: global.ap.fastqvpn.com
     port: 29985
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇸🇬一键连｜新加坡
     type: http
     server: global.ap.fastqvpn.com
     port: 29986
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇬🇧一键连｜英国
     type: http
     server: global.ap.fastqvpn.com
     port: 29987
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇺🇸一键连｜美国
     type: http
     server: global.ap.fastqvpn.com
     port: 29988
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰一键连｜A1
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰一键连｜A2
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰一键连｜A3
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰一键连｜A4
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰一键连｜A5
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
   - name: 🇭🇰香港FASTQ_WY
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -102,7 +102,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -110,7 +110,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -118,7 +118,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -126,7 +126,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -134,7 +134,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -142,7 +142,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -150,7 +150,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -158,7 +158,7 @@ proxies:
     server: a1.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -166,7 +166,7 @@ proxies:
     server: a1.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -174,7 +174,7 @@ proxies:
     server: a1.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -182,7 +182,7 @@ proxies:
     server: a1.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -190,7 +190,7 @@ proxies:
     server: a1.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -198,7 +198,7 @@ proxies:
     server: a1.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -206,7 +206,7 @@ proxies:
     server: a1.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -214,7 +214,7 @@ proxies:
     server: a1.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -222,7 +222,7 @@ proxies:
     server: node.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -230,7 +230,7 @@ proxies:
     server: node.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -238,7 +238,7 @@ proxies:
     server: node.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -246,7 +246,7 @@ proxies:
     server: node.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -254,7 +254,7 @@ proxies:
     server: node.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -262,7 +262,7 @@ proxies:
     server: node.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -270,7 +270,7 @@ proxies:
     server: node.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -278,7 +278,7 @@ proxies:
     server: node.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -286,7 +286,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -294,7 +294,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -302,7 +302,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -310,7 +310,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -318,7 +318,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -326,7 +326,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -334,7 +334,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -342,7 +342,7 @@ proxies:
     server: ap1-au.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -350,7 +350,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -358,7 +358,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -366,7 +366,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -374,7 +374,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -382,7 +382,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -390,7 +390,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -398,7 +398,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -406,7 +406,7 @@ proxies:
     server: ap1-ca.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -414,7 +414,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -422,7 +422,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -430,7 +430,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -438,7 +438,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -446,7 +446,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -454,7 +454,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -462,7 +462,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -470,7 +470,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -478,7 +478,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -486,7 +486,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -494,7 +494,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -502,7 +502,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -510,7 +510,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -518,7 +518,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -526,7 +526,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -534,7 +534,7 @@ proxies:
     server: ap1-jp.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -542,7 +542,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -550,7 +550,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -558,7 +558,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -566,7 +566,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -574,7 +574,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -582,7 +582,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -590,7 +590,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -598,7 +598,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -606,7 +606,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -614,7 +614,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -622,7 +622,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -630,7 +630,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -638,7 +638,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -646,7 +646,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -654,7 +654,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -662,7 +662,7 @@ proxies:
     server: ap1-uk.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -670,7 +670,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29980
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -678,7 +678,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29982
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -686,7 +686,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29983
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -694,7 +694,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29984
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -702,7 +702,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29985
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -710,7 +710,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29986
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -718,7 +718,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29987
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true
@@ -726,7 +726,7 @@ proxies:
     server: ap1-us.er3.xyz
     port: 29988
     type: http
-    username: 446377266063081472
+    username: “446377266063081472”
     password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6
     tls: true
     skip-cert-verify: true

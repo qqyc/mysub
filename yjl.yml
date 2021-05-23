@@ -1,0 +1,13 @@
+proxies:
+  - {name: 🇭🇰 一键连｜香港, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇦🇺 一键连｜澳大利亚, server: a1.ap.fastqvpn.com, port: 29982, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇨🇦 一键连｜加拿大, server: a1.ap.fastqvpn.com, port: 29983, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇩🇪 一键连｜德国, server: a1.ap.fastqvpn.com, port: 29984, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇯🇵 一键连｜日本, server: a1.ap.fastqvpn.com, port: 29985, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇸🇬 一键连｜新加坡, server: a1.ap.fastqvpn.com, port: 29986, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇬🇧 一键连｜英国, server: a1.ap.fastqvpn.com, port: 29987, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇺🇸 一键连｜美国, server: a1.ap.fastqvpn.com, port: 29988, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 一键连｜A2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 一键连｜A3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 一键连｜A4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 一键连｜A5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 446377266063081472, password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}

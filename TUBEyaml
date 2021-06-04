@@ -1,0 +1,43 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50120, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50121, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50122, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50123, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50124, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50125, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50127, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50128, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50129, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50130, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50131, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 30420, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: HK, server: gdcu.ix.edge.kunlunae.com, port: 30520, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: HK, server: gdcu.ix.edge.kunlunae.com, port: 30521, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: HK, server: gdcu.ix.edge.kunlunae.com, port: 30522, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SG, server: gdcu.ix.edge.kunlunae.com, port: 20320, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SG, server: gdcu.ix.edge.kunlunae.com, port: 30321, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SG, server: gdcu.ix.edge.kunlunae.com, port: 30322, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SG, server: gdcu.ix.edge.kunlunae.com, port: 30323, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SG, server: gdcu.ix.edge.kunlunae.com, port: 30324, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: TW, server: gdcu.ix.edge.kunlunae.com, port: 30220, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: TW, server: gdcu.ix.edge.kunlunae.com, port: 30221, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: TW, server: gdcu.ix.edge.kunlunae.com, port: 30222, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: TW, server: gdcu.ix.edge.kunlunae.com, port: 30223, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: TW, server: gdcu.ix.edge.kunlunae.com, port: 30224, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 40320, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 40321, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JP, server: gdcu.ix.edge.kunlunae.com, port: 40322, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: SUA, server: gdcu.ix.edge.kunlunae.com, port: 40220, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: HKback, server: 168.70.1.48, port: 40155, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: HKback, server: 168.70.1.48, port: 40155, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: JPback, server: aga1.955236.xyz, port: 30055, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+  - {name: KRback, server: aga1.955236.xyz, port: 30055, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 93146:B6mjfm, obfs-param: ""}
+

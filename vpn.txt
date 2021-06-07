@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇸🇬 武士 新加坡🇸🇬, server: 45.88.42.22, port: 54068, type: vmess, uuid: 83f7d4a0-a787-4cff-fb37-fa9e556b24d4, alterId: 64, cipher: auto, tls: false}
   - {name: 武士 巴林, server: 15.184.91.216, port: 55435, type: vmess, uuid: 8d81b746-53ce-45c5-b8a4-dec28a0c5a80, alterId: 64, cipher: auto, tls: false}
- - {name: 🇺🇸 武士 美国🇺🇸 12, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 武士 美国🇺🇸 12, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 武士 美国🇺🇸 13, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
   - {name: 🇰🇷 武士 韩国🇰🇷, server: 13.125.249.11, port: 21534, type: vmess, uuid: 0ef8a9d9-af9b-484f-d144-f432baf6964a, alterId: 64, cipher: auto, tls: false}
   - {name: CH 🇨🇭 Zurich 1, server: 212.102.36.234, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}

@@ -1,0 +1,12 @@
+proxies:
+  - {name: 🇳🇱 荷兰J39, server: c39s5.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰J1, server: c1s5.jamjams.net, port: 19970, type: vmess, uuid: 6213d0c0-432f-445c-8a47-f58b9152b212, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J39②, server: c39s801.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J39①, server: c39s3.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J23②, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J23①, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J1②, server: c1s801.jamjams.net, port: 19970, type: vmess, uuid: 6213d0c0-432f-445c-8a47-f58b9152b212, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国J1①, server: c1s3.jamjams.net, port: 19970, type: vmess, uuid: 6213d0c0-432f-445c-8a47-f58b9152b212, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本大阪J39, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本大阪J23, server: c23s4.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本软银大阪J1, server: c1s4.jamjams.net, port: 19970, type: vmess, uuid: 6213d0c0-432f-445c-8a47-f58b9152b212, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}

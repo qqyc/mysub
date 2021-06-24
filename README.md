@@ -1,6 +1,6 @@
 proxies:
   - {name: 🇭🇰 一键连｜香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
-  - {name: 一键连｜澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
+  - {name: 🇦🇺 一键连｜澳洲, server: global.ap.fastqvpn.com, port: 29982, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
   - {name: 🇨🇦 一键连｜加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
   - {name: 🇩🇪 一键连｜德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}
   - {name: 🇯🇵 一键连｜日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true}

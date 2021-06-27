@@ -1,0 +1,5 @@
+proxies:
+  - {name: 香港a1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: false}
+  - {name: 香港cmcer3, server: cmc-ap.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}
+  - {name: 香港a1er3, server: a1.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}
+  - {name: 香港au, server: ap1-au.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}

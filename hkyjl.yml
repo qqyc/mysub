@@ -1,5 +1,11 @@
 proxies:
-  - {name: 香港a1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: false}
-  - {name: 香港cmcer3, server: cmc-ap.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}
-  - {name: 香港a1er3, server: a1.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}
-  - {name: 香港au, server: ap1-au.er3.xyz, port: 29980, type: http, username:  "446377266063081472", password: 13ea41ef-2a1e-43aa-98ce-5a8933fa39f6, tls: true, skip-cert-verify: true}
+  - {name: 香港90, server: pt2.centaur.network, port: 8090, type: http, tls: true}
+  - {name: 香港91, server: pt2.centaur.network, port: 8091, type: http, tls: true}
+  - {name: 香港92, server: pt2.centaur.network, port: 8092, type: http, tls: true}
+  - {name: 香港jc, server: jc.ap.fastqvpn.com, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true}
+  - {name: 香港gj, server: gj.ap.fastqvpn.com, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true}
+  - {name: 香港a1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true}
+  - {name: 香港a2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true}
+  - {name: 香港txwy, server: tx.wy.fastqvpn.com, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true, skip-cert-verify: true}
+  - {name: 香港yp, server: yjl.pjj.life, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true, skip-cert-verify: true}
+  - {name: 香港1p, server: yjl.pjj.life, port: 29980, type: http, username:  "461503637491810304", password: 8bc3ff99-0a39-4747-812b-bf2f6d952a6b, tls: true, skip-cert-verify: true}

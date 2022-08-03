@@ -1,0 +1,129 @@
+proxies:
+  - name: 香港Azure 佛电
+    server: fsct.1aba.cn
+    port: 41720
+    type: ss
+    cipher: aes-128-gcm
+    password: azhkLfb2fcaOok
+    udp: true
+  - name: 香港Azure AZ上海
+    server: azsh01.986888.xyz
+    port: 41720
+    type: ss
+    cipher: aes-128-gcm
+    password: azhkLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 广移z
+    server: cn1.node.zeroteam.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 豫移z
+    server: cn2.node.zeroteam.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 广移
+    server: gy.bzcv.cn
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 上移
+    server: cn.cmcmyd.986888.xyz
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 日本M247 上移
+    server: cn.cmcmyd.986888.xyz
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 白嫖广移
+    server: 120.232.150.100
+    port: 443
+    type: trojan
+    password: 1e93ccb6-4ec8-4990-b70c-0c5a0bc30bac
+    sni: dmit.142701.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 美国KURUN 白嫖扬联
+    server: 153.99.246.105
+    port: 443
+    type: trojan
+    password: 47547362-7230-4c34-be2a-a7c2b39d649e
+    sni: kur.142701.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 香港DMIT 江移
+    server: gz.syhwdz.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 日本M247 广移z
+    server: cn1.node.zeroteam.top
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 日本M247 豫移z
+    server: cn2.node.zeroteam.top
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 广移z
+    server: cn1.node.zeroteam.top
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 江移
+    server: gz.syhwdz.top
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true
+  - name: 新加坡Landups 江移-orsg
+    server: gz.syhwdz.top
+    port: 41703
+    type: ss
+    cipher: aes-128-gcm
+    password: sgheLfb2fcaOok
+    udp: true
+  - name: 新加坡Landups 广移-orsg
+    server: cn1.node.zeroteam.top
+    port: 41703
+    type: ss
+    cipher: aes-128-gcm
+    password: sgheLfb2fcaOok
+    udp: true
+  - name: 日本M247 AWS北京
+    server: awsbj01.986888.xyz
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 广移
+    server: gy.bzcv.cn
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true

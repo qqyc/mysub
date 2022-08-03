@@ -1,0 +1,732 @@
+mixed-port: 7890
+tproxy-port: 7891
+tcp-concurrent: true         #【Meta专属】TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+hosts:
+  services.googleapis.cn: 142.250.196.131
+  www.google.cn: 142.250.196.131
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
+  store-selected: true    #节点状态记忆（若不同配置有同代理名称,设置值共享）
+  store-fake-ip: true      #fake-ip缓存
+tun:
+  enable: false
+  stack: system
+  dns-hijack:
+    - '0.0.0.0:53'
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  listen: 0.0.0.0:8853
+  ipv6: false
+  default-nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:                  #Fake-ip过滤，列表中的域名返回真实ip
+    - stun.l.google.com
+    - '*.lan'
+    - "*.local"
+    - "*.localdomain"
+    - "*.localhost"
+    - '*.linksys.com'
+    - '+.pool.ntp.org'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - time1.cloud.tencent.com
+    - "*.ntp.org.cn"
+    - '*.alipay.com'
+    - '*.alipayobjects.com'
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - '+.msftnsci.com'
+    - '+.msftconnecttest.com'
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://1.12.12.12/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://cloudflare-dns.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - tcp://208.67.222.222:443
+    - https://dns.adguard.com/dns-query
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true                      #为真时，不匹配为geoip规则的使用fallback返回结果
+    geoip-code: CN                   #geoip匹配区域设定
+    geosite:                         #【Meta专属】设定geosite某分类使用fallback返回结果
+      - gfw
+    ipcidr:                          #列表中的ip使用fallback返回解析结果
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:                          #列表中的域名使用fallback返回解析结果
+      - +.facebook.com
+      - +.twitter.com
+      - +.google.com
+      - +.googleapis.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.xn--ngstr-lra8j.com
+      - +.googlevideo.com
+      - +.gvt1.com
+      - +.gmail.com
+      - +.youtube.com
+      - +.youtu.be
+      - +.gvt0.com
+      - +.gvt2.com
+      - +.gvt3.com
+      - +.gstatic.com
+      - +.265.com
+      - +.2mdn.net
+      - +.app-measurement.com
+      - +.c.admob.com
+      - +.clickserve.dartsearch.net
+      - +.crl.pki.goog
+      - +.doubleclick.net
+      - +.firebase-settings.crashlytics.com
+      - +.google-analytics.com
+      - +.googleadservices.com
+      - +.googleanalytics.com
+      - +.googleoptimize.com
+      - +.googlesyndication.com
+      - +.googletagmanager.com
+      - +.googletagservices.com
+proxies:
+  - name: 香港Azure 佛电
+    server: fsct.1aba.cn
+    port: 41720
+    type: ss
+    cipher: aes-128-gcm
+    password: azhkLfb2fcaOok
+    udp: true
+  - name: 香港Azure AZ上海
+    server: azsh01.986888.xyz
+    port: 41720
+    type: ss
+    cipher: aes-128-gcm
+    password: azhkLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 广移z
+    server: cn1.node.zeroteam.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 豫移z
+    server: cn2.node.zeroteam.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 广移
+    server: gy.bzcv.cn
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 上移
+    server: cn.cmcmyd.986888.xyz
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 日本M247 上移
+    server: cn.cmcmyd.986888.xyz
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 香港DMIT 白嫖广移
+    server: 120.232.150.100
+    port: 443
+    type: trojan
+    password: 1e93ccb6-4ec8-4990-b70c-0c5a0bc30bac
+    sni: dmit.142701.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 美国KURUN 白嫖扬联
+    server: 153.99.246.105
+    port: 443
+    type: trojan
+    password: 47547362-7230-4c34-be2a-a7c2b39d649e
+    sni: kur.142701.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 香港DMIT 江移
+    server: gz.syhwdz.top
+    port: 41745
+    type: ss
+    cipher: aes-128-gcm
+    password: dmitLfb2fcaOok
+    udp: true
+  - name: 日本M247 广移z
+    server: cn1.node.zeroteam.top
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 日本M247 豫移z
+    server: cn2.node.zeroteam.top
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 广移z
+    server: cn1.node.zeroteam.top
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 江移
+    server: gz.syhwdz.top
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true
+  - name: 新加坡Landups 江移-orsg
+    server: gz.syhwdz.top
+    port: 41703
+    type: ss
+    cipher: aes-128-gcm
+    password: sgheLfb2fcaOok
+    udp: true
+  - name: 新加坡Landups 广移-orsg
+    server: cn1.node.zeroteam.top
+    port: 41703
+    type: ss
+    cipher: aes-128-gcm
+    password: sgheLfb2fcaOok
+    udp: true
+  - name: 日本M247 AWS北京
+    server: awsbj01.986888.xyz
+    port: 41707
+    type: ss
+    cipher: aes-128-gcm
+    password: m2jpLfb2fcaOok
+    udp: true
+  - name: 新加坡Oracle 广移
+    server: gy.bzcv.cn
+    port: 41708
+    type: ss
+    cipher: aes-128-gcm
+    password: orsgLfb2fcaOok
+    udp: true
+#锚点
+bld: &selfBLD
+  proxies:
+    - 香港Azure 佛电
+    - 香港Azure AZ上海
+    - 香港DMIT 广移z
+    - 香港DMIT 豫移z
+    - 香港DMIT 广移
+    - 香港DMIT 上移
+    - 日本M247 上移
+    - 香港DMIT 白嫖广移
+    - 美国KURUN 白嫖扬联
+    - 香港DMIT 江移
+    - 日本M247 广移z
+    - 日本M247 豫移z
+    - 新加坡Oracle 广移z
+    - 新加坡Oracle 江移
+    - 新加坡Landups 江移-orsg
+    - 新加坡Landups 广移-orsg
+    - 日本M247 AWS北京
+    - 新加坡Oracle 广移
+pa: &ProxyAll
+  type: select
+  proxies:
+    - Default
+    - DIRECT
+    - REJECT
+    - HK-Group
+    - JP-Group
+    - US-Group
+    - SG-Group
+    - TW-Group
+    - OTR-Group
+#    - Pro-Group
+#    - CN-Group
+    - SelfBuild
+    - AllSelect
+    - PASS
+HKF: &HKFilter
+  filter: "港|香港|HK|HongKong|Hong Kong|HKG"
+JPF: &JPFilter
+  filter: "日|日本|JP|Japan|JPN|东京|大阪|埼玉|川日|沪日|深日|[^-]日"
+USF: &USFilter
+  filter: "美|美国|US|UnitedStates|United States|USA|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥"
+SGF: &SGFilter
+  filter: "新|新加坡|SG|Singapore|SGP|坡|狮城"
+TWF: &TWFilter
+  filter: "台|台湾|TW|Taiwan|TWN|台中|新北|彰化"
+CNF: &CNFilter
+  filter: "广停|广东|杭州|腾讯云广州|阿里云北京|中国|国内|China|回国|CN"
+ProF: &ProFilter
+  filter: "IPLC|iplc|IEPL|iepl|GAPN|gapn|专线|游戏|高级"
+s: &Sub
+  type: http
+  interval: 3600
+  health-check:
+    enable: true
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+r: &RuleP
+  type: http
+  behavior: classical
+  interval: 86400
+#改下面代理提供商的名字的话，这里面的名字也需要一并修改
+ap: &AirP
+  use:
+    - ImmTelecom
+    - FlowerCloud
+    - WestData
+    - FishPort
+    - BitzNet
+proxy-providers:
+  ImmTelecom: #分组名字，可改，但需要一并改动上面锚点里的名字
+    <<: *Sub
+    url: "https://www.nameless13.com/sub?target=clash&url=https%3A%2F%2Fapi.immtel.co%2FSubscription%2FShadowRocketImportService%3Fsid%3D5627%26token%3DzT265zqWhRX%26ssr%3D1&list=1&scv=1&udp=1"
+    path: ./proxy_providers/ImmTelecom.yaml
+  FlowerCloud:
+    <<: *Sub
+    url: "https://www.nameless13.com/sub?target=clash&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D8186%26token%3DVm6SLVAMNC0E%26ssr%3D1&list=1&scv=1&udp=1"
+    path: ./proxy_providers/FlowerCloud.yaml
+  WestData:
+    <<: *Sub
+    url: "https://www.nameless13.com/sub?target=clash&url=https%3A%2F%2Ffuqing.ch%2Fmodules%2Fservers%2Ffuqingsocks%2Fosubscribe.php%3Fsid%3D5713%26token%3DhavZ9syXngCG&list=1&scv=1&udp=1"
+    path: ./proxy_providers/WestData.yaml
+  FishPort:
+    <<: *Sub
+    url: "https://www.nameless13.com/sub?target=clash&url=https%3A%2F%2Fsubs.noy.cat%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dde5aa53d3a205fedfd235533706652ec&list=1&scv=1&udp=1"
+    path: ./proxy_providers/FishPort.yaml
+  BitzNet:
+    <<: *Sub
+    url: "https://www.nameless13.com/sub?target=clash&url=https%3A%2F%2Fs1.subbitznet.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D01563b7c8b0a4d57dc8a1cea325e5feb&list=1&scv=1&udp=1"
+    path: ./proxy_providers/BitzNet.yaml
+proxy-groups:
+  - name: Default
+    type: select
+    proxies:
+      - HK-Group
+      - JP-Group
+      - US-Group
+      - SG-Group
+      - TW-Group
+      - OTR-Group
+#      - Pro-Group
+#      - CN-Group
+      - SelfBuild
+      - AllSelect
+      - DIRECT
+  - name: AllSelect
+    type: select
+    <<: [*AirP, *selfBLD]
+  - name: Google
+    <<: *ProxyAll
+  - name: Telegram
+    <<: *ProxyAll
+  - name: YouTube
+    <<: *ProxyAll
+  - name: Game
+    <<: *ProxyAll
+  - name: OneDrive
+    <<: *ProxyAll
+  - name: Microsoft
+    <<: *ProxyAll
+  - name: GitHub
+    <<: *ProxyAll
+  - name: Bilibili
+    <<: *ProxyAll
+  - name: Bilibili-SeAsia
+    <<: *ProxyAll
+  - name: Bahamut
+    <<: *ProxyAll
+  - name: Emby
+    <<: *ProxyAll
+  - name: Pixiv
+    <<: *ProxyAll
+  - name: Netflix
+    <<: *ProxyAll
+  - name: PayPal
+    <<: *ProxyAll
+  - name: Niconico
+    <<: *ProxyAll
+  - name: Spotify
+    <<: *ProxyAll
+  - name: E-Hentai
+    <<: *ProxyAll
+  - name: Line
+    <<: *ProxyAll
+  - name: Ad-Reject
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - AllSelect
+      - Final
+  - name: Anti-Hijack
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - AllSelect
+      - Final
+  - name: Privacy-Keep
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - AllSelect
+      - Final
+  - name: CN-Site
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+#      - CN-Group
+      - AllSelect
+      - Final
+  - name: Final
+    <<: *ProxyAll
+#主流地区选择
+  - name: HK-Group
+    type: select
+    <<: [*AirP, *HKFilter]
+    proxies:
+      - HK-Lat
+      - HK-Fall
+  - name: JP-Group
+    type: select
+    <<: [*AirP, *JPFilter]
+    proxies:
+      - JP-Lat
+      - JP-Fall
+  - name: US-Group
+    type: select
+    <<: [*AirP, *USFilter]
+    proxies:
+      - US-Lat
+      - US-Fall
+  - name: SG-Group
+    type: select
+    <<: [*AirP, *SGFilter]
+    proxies:
+      - SG-Lat
+      - SG-Fall
+  - name: TW-Group
+    type: select
+    <<: [*AirP, *TWFilter]
+    proxies:
+      - TW-Lat
+      - TW-Fall
+  - name: OTR-Group
+    type: select
+    <<: *AirP
+    filter: "^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|🇰🇷|HKFilter|JPFilter|USFilter|SGFilter|TWFilter|CNFilter)).*"
+  - name: SelfBuild
+    type: select
+    proxies:
+      - Self-Select
+      - Self-Lat
+      - Self-Fall
+  - name: Self-Select
+    type: select
+    <<: *selfBLD
+
+#  - name: CN-Group
+#    type: select
+#    <<: [*AirP, *CNFilter]
+#  - name: Pro-Group
+#    type: select
+#    <<: [*AirP, *ProFilter]
+#    proxies:
+#      - Pro-Fall
+
+
+#主流地区自动模式
+  - name: HK-Lat
+    type: url-test
+    <<: [*AirP, *HKFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: HK-Fall
+    type: fallback
+    <<: [*AirP, *HKFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+  - name: JP-Lat
+    type: url-test
+    <<: [*AirP, *JPFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: JP-Fall
+    type: fallback
+    <<: [*AirP, *JPFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+  - name: US-Lat
+    type: url-test
+    <<: [*AirP, *USFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: US-Fall
+    type: fallback
+    <<: [*AirP, *USFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+  - name: SG-Lat
+    type: url-test
+    <<: [*AirP, *SGFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: SG-Fall
+    type: fallback
+    <<: [*AirP, *SGFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+  - name: TW-Lat
+    type: url-test
+    <<: [*AirP, *TWFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: TW-Fall
+    type: fallback
+    <<: [*AirP, *TWFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+  - name: Pro-Fall
+    type: fallback
+    <<: [*AirP, *ProFilter]
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+#自建
+  - name: Self-Lat
+    type: url-test
+    <<: *selfBLD
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 40
+    lazy: true
+  - name: Self-Fall
+    type: fallback
+    <<: *selfBLD
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+
+
+rule-providers:
+  DirectAd:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./rule_providers/Direct.yaml
+  AdLite:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
+    path: ./rule_providers/AdvertisingLite_Classical.yaml
+  Hijacking:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.yaml"
+    path: ./rule_providers/Hijacking.yaml
+  Privacy:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml"
+    path: ./rule_providers/Privacy_Classical.yaml
+  China:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml"
+    path: ./rule_providers/China.yaml
+  Google:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
+    path: ./rule_providers/Google.yaml
+  Game:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
+    path: ./rule_providers/Game.yaml
+  Telegram:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
+    path: ./rule_providers/Telegram.yaml
+  YouTube:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./rule_providers/YouTube.yaml
+  OneDrive:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml"
+    path: ./rule_providers/OneDrive.yaml
+  Microsoft:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./rule_providers/Microsoft.yaml
+  GitHub:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml"
+    path: ./rule_providers/GitHub.yaml
+  BiliBili:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./rule_providers/BiliBili.yaml
+  BiliBiliIntl:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml"
+    path: ./rule_providers/BiliBiliIntl.yaml
+  Bahamut:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml"
+    path: ./rule_providers/Bahamut.yaml
+  Emby:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
+    path: ./rule_providers/Emby.yaml
+  Pixiv:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pixiv/Pixiv.yaml"
+    path: ./rule_providers/Pixiv.yaml
+  Netflix:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
+    path: ./rule_providers/Netflix.yaml
+  PayPal:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.yaml"
+    path: ./rule_providers/PayPal.yaml
+  Niconico:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml"
+    path: ./rule_providers/Niconico.yaml
+  Spotify:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
+    path: ./rule_providers/Spotify.yaml
+  E-Hentai:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/xishang0128/clash-rules/main/ehentai.yaml"
+    path: ./rule_providers/ehentai.yaml
+  Line:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Line/Line.yaml"
+    path: ./rule_providers/Line.yaml
+  HBOHK:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK/HBOHK.yaml"
+    path: ./rule_providers/HBOHK.yaml
+  HBOUSA:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml"
+    path: ./rule_providers/HBOUSA.yaml
+  HuluJP:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluJP/HuluJP.yaml"
+    path: ./rule_providers/HuluJP.yaml
+  HuluUSA:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.yaml"
+    path: ./rule_providers/HuluUSA.yaml
+  ProxyLite:
+    <<: *RuleP
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml"
+    path: ./rule_providers/ProxyLite.yaml"
+rules:
+  - AND,((DST-PORT,5228-5230),(NETWORK,TCP),(DOMAIN-KEYWORD,google)),DIRECT
+  - RULE-SET,DirectAd,DIRECT
+  - RULE-SET,AdLite,Ad-Reject
+  - RULE-SET,Hijacking,Anti-Hijack
+  - RULE-SET,Privacy,Privacy-Keep
+  - RULE-SET,Google,Google
+  - RULE-SET,Game,Game
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,OneDrive,OneDrive
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,BiliBiliIntl,Bilibili-SeAsia
+  - RULE-SET,BiliBili,Bilibili
+  - RULE-SET,Bahamut,Bahamut
+  - RULE-SET,Emby,Emby
+  - RULE-SET,Pixiv,Pixiv
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,Niconico,Niconico
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,E-Hentai,E-Hentai
+  - RULE-SET,Line,Line
+  - RULE-SET,HBOHK,HK-Group
+  - RULE-SET,HBOUSA,US-Group
+  - RULE-SET,HuluJP,JP-Group
+  - RULE-SET,HuluUSA,US-Group
+  - RULE-SET,ProxyLite,Default
+  - RULE-SET,China,CN-Site
+  - GEOSITE,CN,CN-Site
+  - GEOIP,CN,CN-Site
+  - MATCH,Final
